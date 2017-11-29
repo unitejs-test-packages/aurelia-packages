@@ -9,4 +9,3 @@ node unitejs/cli/bin/unite configure --packageName=aurelia-typescript-amd --titl
 
 node unitejs/cli/bin/unite configure --packageName=aurelia-typescript-systemjs --title="Aurelia TypeScript SystemJS" --profile=AureliaTypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --outputDirectory=./apps/aurelia-typescript-systemjs
 # node unitejs/cli/bin/unite package --packageName=moment --outputDirectory=./apps/aurelia-typescript-systemjs
-
