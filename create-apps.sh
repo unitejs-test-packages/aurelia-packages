@@ -12,6 +12,7 @@ node unitejs/unitejs-cli/bin/unite package --packageName=underscore --outputDire
 node unitejs/unitejs-cli/bin/unite configure --packageName=aurelia-typescript-amd --title="Aurelia TypeScript AMD" --profile=AureliaTypeScript --moduleType=AMD --bundler=RequireJS --outputDirectory=./apps/aurelia-typescript-amd
 mkdir -p ./apps/aurelia-typescript-amd/www/test/e2e/src/examples/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/examples/*.ts $_
 mkdir -p ./apps/aurelia-typescript-amd/www/test/e2e/src/helpers/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/helpers/*.ts $_
+rm ./apps/aurelia-typescript-amd/www/test/e2e/src/examples/example-rxjs.spec.ts
 node unitejs/unitejs-cli/bin/unite package --packageName=lodash --outputDirectory=./apps/aurelia-typescript-amd
 node unitejs/unitejs-cli/bin/unite package --packageName=moment --outputDirectory=./apps/aurelia-typescript-amd
 # node unitejs/unitejs-cli/bin/unite package --packageName=rxjs --outputDirectory=./apps/aurelia-typescript-amd
