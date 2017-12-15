@@ -14,7 +14,7 @@ mkdir -p ./apps/aurelia-typescript-amd/www/test/e2e/src/examples/ && cp -r ./uni
 mkdir -p ./apps/aurelia-typescript-amd/www/test/e2e/src/helpers/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/helpers/*.ts $_
 node unitejs/unitejs-cli/bin/unite package --packageName=lodash --outputDirectory=./apps/aurelia-typescript-amd
 node unitejs/unitejs-cli/bin/unite package --packageName=moment --outputDirectory=./apps/aurelia-typescript-amd
-node unitejs/unitejs-cli/bin/unite package --packageName=rxjs --outputDirectory=./apps/aurelia-typescript-amd
+# node unitejs/unitejs-cli/bin/unite package --packageName=rxjs --outputDirectory=./apps/aurelia-typescript-amd
 node unitejs/unitejs-cli/bin/unite package --packageName=underscore --outputDirectory=./apps/aurelia-typescript-amd
 
 node unitejs/unitejs-cli/bin/unite configure --packageName=aurelia-typescript-systemjs --title="Aurelia TypeScript SystemJS" --profile=AureliaTypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --outputDirectory=./apps/aurelia-typescript-systemjs
